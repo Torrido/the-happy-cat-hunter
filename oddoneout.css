@@ -1,0 +1,38 @@
+.card-unknown{
+width:200px;
+height:100px;
+background-color:black;
+display:inline-block;
+border: 2px solid #457945;
+}
+.card-bad{
+width:200px;
+height:100px;
+background-image:url(http://i.telegraph.co.uk/multimedia/archive/03269/Angry_Cat_1_3269958k.jpg);
+background-size: cover;
+display:inline-block;
+border: 2px solid #457945;
+}
+.card-good{
+width:200px;
+height:100px;
+background-image:url(http://www.gordonrigg.com/the-hub/wp-content/uploads/2015/06/little_cute_cat_1920x1080.jpg);
+background-size: cover;
+display:inline-block;
+border: 2px solid #457945;
+}
+body {
+background-color:#333333;
+}
+h1 {
+	color:#457945;
+	font-family: "Verdana";
+	font-size:50px;
+	text-align: center;
+}
+h2 {
+	color:#195919;
+	font-family: "Verdana";
+	font-size:20px;
+	text-align: center;
+}
