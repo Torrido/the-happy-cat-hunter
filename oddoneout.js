@@ -19,8 +19,8 @@ var numCards = 24;
 var cards = [];
 var points = 0
 function count() {
-         points += 1;
-         document.getElementById( "qty" ).value = points;
+        points += 1;
+        document.getElementById( "qty" ).value = points;
 }
 
 for (var i = 0; i < numCards; i++){
@@ -30,7 +30,6 @@ for (var i = 0; i < numCards; i++){
 }
 
  var correct = picSlot(numCards);
- console.log(correct);
  
  function addBadCardClass (element) {
 	 element.classList.remove("card-unknown");
@@ -64,7 +63,7 @@ for (var i = 0; i < numCards; i++){
 		addBadCardClass(card);
         count(); 
     };
-		}
+}
 		
 	
  
